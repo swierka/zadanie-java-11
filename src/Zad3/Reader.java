@@ -8,8 +8,6 @@ import java.util.*;
 public class Reader {
 
     private File file = new File("Liczby.txt");
-    private int key;
-    private int value;
 
     public void fileReader(TreeMap<Integer, Integer> myMap) {
 
@@ -26,12 +24,12 @@ public class Reader {
         }
     }
 
-    public void printMap(Map<Integer, Integer> myMap) {
+    /*public void printMap(Map<Integer, Integer> myMap) {
 
         for (Map.Entry<Integer, Integer> entry : myMap.entrySet()) {
             key = entry.getKey();
             value = entry.getValue();
             System.out.println(key + " - liczba wystapien: " + value);
         }
-    }
+    }*/
 }

@@ -8,8 +8,9 @@ public class Numbers {
 
         TreeMap<Integer,Integer> myMap = new TreeMap<>();
         Reader reader = new Reader();
-
         reader.fileReader(myMap);
-        reader.printMap(myMap);
+
+        Printer printer = new Printer();
+        printer.printMap(myMap);
     }
 }
